@@ -1,0 +1,221 @@
+
+*{
+  margin: 0;
+  padding: 0;
+}
+
+/* Celulares Moto G*/
+@media (min-width: 321px) and (max-width:  360.97px) {
+
+
+  body {
+    font-family:"Copperplate",fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    background: rgb(20,28,64);
+    background: linear-gradient(0deg, rgba(20,28,64,1) 8%, rgba(3,85,255,1) 71%, rgba(53,120,244,1) 87%, rgba(47,173,209,1) 100%);
+  }
+
+  #logo{
+    animation: descer 1s;
+    position: relative;
+    top:-13em;
+   
+
+  }
+
+  #img-logo {
+    
+    width: 200px;
+    height: 200px;
+    
+
+  }
+
+  @keyframes descer {
+    from {
+      transform: translateY(-1000px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+  @keyframes subir {
+    from {
+      transform: translateY(1000px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+  #btn-cta{
+     animation: subir 5s;
+    max-width: 330px;
+    min-height: 100px;
+    position: relative;
+    top:-11em;
+    
+    color:orangered;
+     box-shadow: 2px 2px #000000;
+     border-radius:10px;
+
+  }
+
+  #text-btn-cta{
+    font-size:1.1em;
+    font-weight: 500;
+    
+    min-width: 300px;
+    position: relative;
+    top:0.3em;
+    left:0;
+    text-shadow: 1px 1px #fff000;
+    
+  }
+
+  #btn-cta:hover{
+       color:black;
+       transform: scale(1.15);
+       text-shadow: 1px 1px #fff000;
+
+  }
+
+  #head-line{
+     animation: subir 2s;
+    
+    padding: 1em;
+    position: relative;
+    top:-12em;
+  }
+
+   #header-head-line{
+    font-size: 1.8em;
+    font-weight: 500;
+    color:orangered;
+    text-shadow: 2px 4px #000000;
+
+   }
+
+
+  footer{
+    position:relative;
+    top:400px;
+  }
+
+
+
+}
+
+
+/* Celulares até 5,5 Polegadas Tamanho G */
+@media (min-width: 376px) and (max-width:  414.98px) {
+  body {
+    font-family:"Copperplate",fantasy;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 900px;
+    background: rgb(20,28,64);
+    background: linear-gradient(0deg, rgba(20,28,64,1) 8%, rgba(3,85,255,1) 71%, rgba(53,120,244,1) 87%, rgba(47,173,209,1) 100%);
+  }
+
+  #logo{
+    animation: descer 1s;
+    position: relative;
+    top:-13em;
+   
+
+  }
+
+  #img-logo {
+    
+    width: 200px;
+    height: 200px;
+    
+
+  }
+
+  @keyframes descer {
+    from {
+      transform: translateY(-1000px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+  @keyframes subir {
+    from {
+      transform: translateY(700px);
+    }
+    to {
+      transform: translateY(0);
+    }
+  } 
+
+
+  #btn-cta{
+     animation: subir 6.5s;
+    max-width: 330px;
+    min-height: 100px;
+    position: relative;
+    top:-11em;
+    left: 1em;
+    
+    color:orangered;
+     box-shadow: 2px 2px #000000;
+     border-radius:10px;
+     visibility: hidden;
+
+  }
+
+  #text-btn-cta{
+    font-size:1.1em;
+    font-weight: 500;
+    
+    min-width: 300px;
+    position: relative;
+    top:0.3em;
+    left:0;
+    text-shadow: 1px 1px #fff000;
+    
+  }
+
+  #btn-cta:hover{
+       color:black;
+       transform: scale(1.15);
+       text-shadow: 1px 1px #fff000;
+
+  }
+
+  #head-line{
+     animation: subir 3s;
+    
+    padding: 1em;
+    position: relative;
+    top:-12em;
+  }
+
+   #header-head-line{
+    font-size: 1.8em;
+    font-weight: 500;
+    color:orangered;
+    text-shadow: 2px 4px #000000;
+
+   }
+
+
+  footer{
+    position:relative;
+    top:400px;
+  }
+}
+
+
